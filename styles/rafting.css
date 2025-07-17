@@ -69,3 +69,11 @@ h1{
     border: 2px solid black;
     box-shadow: 0.4 gray;
 }
+
+article{
+    position: absolute;
+    background-color: rgb(233,196,106);
+    color: black;
+    bottom: 10px;
+    
+}
