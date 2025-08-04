@@ -209,7 +209,7 @@ iframe{
     margin-left: 20px;
 }
 
-.contact-input, textarea{
+.contact-input{
     width: 800px;
     height: 30px;
     margin: 10px 10px;
@@ -221,10 +221,23 @@ iframe{
     color: white;
     font-weight: bold;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin: 10px 20px
 }
 
 .input-text{
     font-weight: bold;
     margin-left: 10px;
+}
+
+section h4{
+    color: black;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+    width: 800px;
+    margin: 10px 10px;
+    padding: 10px;
 }
