@@ -47,7 +47,6 @@ h1, h2{
     color: black;
 }
 
-
 section div{
     display: flex;
     align-items: center;
@@ -95,14 +94,13 @@ nav a{
     position: relative;
 }
 
-
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-h1{
+.hero h1{
     position: absolute;
     top: 20px;
     width: 100%;
@@ -125,7 +123,6 @@ article{
     background-color: rgb(233,196,106);
     color: black;
     bottom: 10px;
-    
 }
 
 footer {
@@ -136,3 +133,98 @@ footer {
   color: black;
 }
 
+.contact_texts{
+    margin: 20px 18px;
+}
+
+.hero1{
+     width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+.contact_items{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 12px;
+}
+
+.address1 {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  width: 300px;
+  height: auto;          
+  border: 1px dashed gray;
+  padding: 8px;
+  gap: 10px;
+  flex-wrap: wrap;         
+}
+
+fieldset{
+    margin: 10px;
+    padding: 10px;
+}
+
+.email-contact {
+  display: flex;
+  flex-direction: column;  
+  white-space: normal;
+  word-break: break-word;
+  flex: 1;                
+}
+
+.email-contact a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.contact_img{
+    width: 40px;
+    height: 40px;
+}
+
+.contact-info{
+    display: flex;
+}
+
+iframe{
+    width: 500px;
+    height: 300px;
+    margin-left:10px;
+}
+
+.employee-image{
+    margin: 20px 4px 20px 2px;
+}
+
+.contact-form{
+    background-color: gainsboro;
+    color: black;
+    padding: 10px;
+    width: 860px;
+    margin-left: 20px;
+}
+
+.contact-input, textarea{
+    width: 800px;
+    height: 30px;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.submit-btn{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.input-text{
+    font-weight: bold;
+    margin-left: 10px;
+}
