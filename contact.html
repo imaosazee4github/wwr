@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta 
-    name="description" 
-    content="Contact Whitewater Warriors Rafting for bookings, inquiries, and support. Plan your next thrilling rafting adventure with us.">
-    <meta name="author" content="Osazee Imadonmwinyi">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Whitewater Warriors Rafting for bookings, inquiries, and support. Plan your next thrilling rafting adventure with us."
+    />
+    <meta name="author" content="Osazee Imadonmwinyi" />
     <title>Contact Us - Whitewater Warriors Rafting</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
-    >
-    <link rel="stylesheet" href="styles/rafting.css">
+    />
+    <link rel="stylesheet" href="styles/rafting.css" />
   </head>
   <body>
     <header>
@@ -23,7 +24,7 @@
         alt="Whitewater Warriors rafting company logo"
         width="100"
         height="100"
-      >
+      />
       <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About Us</a>
@@ -45,7 +46,7 @@
               src="images/address-image.jpg"
               alt="company contact Address for users and customer"
               class="contact_img"
-            >
+            />
             <h2>
               Address:
               <span>Okhoromi community, Decagon Institute, Ohen Str.</span>
@@ -56,7 +57,7 @@
               src="images/images-phone.png"
               alt="company contact phone number for users and customer"
               class="contact_img"
-            >
+            />
             <h2>
               Phone Number:
               <span>+234-906-87748</span>
@@ -67,7 +68,7 @@
               src="images/email.jpg"
               alt="Email icon linking to contact Whitewater Warriors"
               class="contact_img"
-            >
+            />
             <h2 class="email-contact">
               Email:
               <a href="mailto:imaosazee@whitewaterwarriors.com">
@@ -79,15 +80,33 @@
 
         <section>
           <h4>Adventure Awaits You!</h4>
-          <div>
-            <img src="images/happy-woman.jpg" alt="Sarah Johnson - Customer Service Manager smiling" class="employee-image" >
-            <img
-              src="images/happy-employee.jpg"
-              alt="Emily Davis - Adventure Coordinator happy and welcoming"
-              class="employee-image"
-            >
-            <img src="images/happy-image.jpg" alt="James Smith - Lead Rafting Guide looking cheerful" class="employee-image">
+          <div class="employee-profiles">
+            <figure>
+              <img
+                src="images/happy-woman.jpg"
+                alt="Sarah Johnson - Customer Service Manager smiling"
+                class="employee-image"
+              />
+              <figcaption>Sarah Johnson - Customer Service Manager</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="images/happy-employee.jpg"
+                alt="Emily Davis - Adventure Coordinator happy and welcoming"
+                class="employee-image"
+              />
+              <figcaption>Emily Davis - Adventure Coordinator</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="images/happy-image.jpg"
+                alt="James Smith - Lead Rafting Guide looking cheerful"
+                class="employee-image"
+              />
+              <figcaption>James Smith - Lead Rafting Guide</figcaption>
+            </figure>
           </div>
+
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2132411565667!2d5.571069673115152!3d6.235598626445911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d1d8b3942bd9%3A0x863d8bb40b8fb860!2sDecagon%20Institute%20(Edo%20Campus)!5e0!3m2!1sen!2sng!4v1754303851145!5m2!1sen!2sng"
             allowfullscreen=""
@@ -98,20 +117,22 @@
       </div>
       <div class="contact-form">
         <form>
-            <label for="name" class="input-text">Name:</label>
-            <input 
-            type="text" 
-            placeholder="Enter Name" 
+          <label for="name" class="input-text">Name:</label>
+          <input
+            type="text"
+            placeholder="Enter Name"
             class="contact-input"
-            id="name">
-          
-            <label for="email" class="input-text">Email:</label>
-            <input 
-            type="email" 
-            placeholder="Enter Email" 
+            id="name"
+          />
+
+          <label for="email" class="input-text">Email:</label>
+          <input
+            type="email"
+            placeholder="Enter Email"
             class="contact-input"
-            id="email">
-        
+            id="email"
+          />
+
           <div>
             <fieldset>
               <legend class="input-text">Purpose of the Message:</legend>
@@ -122,7 +143,7 @@
                   value="General Inquiry"
                   required
                   id="general-inquiry"
-                >
+                />
                 General Inquiry
               </label>
               <label for="reservation-question">
@@ -130,57 +151,57 @@
                   type="radio"
                   name="purpose"
                   value="Reservation Question"
-                   id="reservation-question"
-                >
+                  id="reservation-question"
+                />
                 Reservation Question
               </label>
               <label for="website-suggestion">
                 <input
-                type="radio" 
-                id="website-suggestion"
-                name="purpose" 
-                value="Website Suggestion">
+                  type="radio"
+                  id="website-suggestion"
+                  name="purpose"
+                  value="Website Suggestion"
+                />
                 Website Suggestion
               </label>
             </fieldset>
           </div>
           <div>
-           
             <label for="message" class="input-text">Your Message:</label>
-            <textarea id="message" name="message" rows="5" cols="10" required></textarea>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              cols="10"
+              required
+            ></textarea>
           </div>
           <div>
-             <label for="news-letter" class="input-text">
-      <input type="checkbox" name="newsletter" id="news-letter">
-      Please subscribe me to the monthly newsletter
-    </label>
+            <label for="news-letter" class="input-text">
+              <input type="checkbox" name="newsletter" id="news-letter" />
+              Please subscribe me to the monthly newsletter
+            </label>
           </div>
           <button type="submit" class="submit-btn">Send Message</button>
         </form>
       </div>
     </main>
     <footer>
-      <p>©️2025 Whitewater Warriors Osazee Imadonmwinyi</p>
-      <nav class="socialmedia">
-        <a href="https://www.facebook.com/">
-          <img
-            src="images/facebook.webp"
-            alt="Follow Whitewater Warriors on Facebook"
-          >
-        </a>
-        <a href="">
-          <img
-            src="images/twitter.png"
-            alt="Follow Whitewater Warriors on Twitter"
-          >
-        </a>
-        <a href="https://www.instagram.com/">
-          <img
-            src="images/instagram.jpg"
-            alt="Follow Whitewater Warriors on Instagram"
-          >
-        </a>
-      </nav>
-    </footer>
+  <p>©️2025 Whitewater Warriors Osazee Imadonmwinyi</p>
+  <nav class="socialmedia">
+    <a href="https://www.facebook.com/">
+      <img src="images/facebook.webp" alt="Follow Whitewater Warriors on Facebook">
+    </a>
+    <a href="">
+      <img src="images/twitter.png" alt="Follow Whitewater Warriors on Twitter">
+    </a>
+    <a href="https://www.instagram.com/">
+      <img src="images/instagram.jpg" alt="Follow Whitewater Warriors on Instagram">
+    </a>
+  </nav>
+  <p>
+    <a href="file:///C:/Users/user/Downloads/contact_wireframe.svg" target="_blank">View Wireframe</a>
+  </p>
+</footer>
   </body>
 </html>
