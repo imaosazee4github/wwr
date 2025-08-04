@@ -3,10 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-      name="description"
-      content="Contact Us Page  get in touch with Whitewater Warriors Rafting. Contact us for booking information, inquiries about our rafting adventures, or customer support. We're here to help you plan your next river experience."
-    >
+    <meta 
+    name="description" 
+    content="Contact Whitewater Warriors Rafting for bookings, inquiries, and support. Plan your next thrilling rafting adventure with us.">
     <meta name="author" content="Osazee Imadonmwinyi">
     <title>Contact Us - Whitewater Warriors Rafting</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +20,7 @@
   <body>
     <header>
       <img
-        src="images/z-splash-rife.png "
+        src="images/z-rift.png"
         alt="Whitewater Warriors rafting company logo"
         width="100"
         height="100"
@@ -44,7 +43,7 @@
         <section class="contact_items">
           <div class="address1">
             <img
-              src="images/addressImage.jpg"
+              src="images/address-image.jpg"
               alt="company contact Address for users and customer"
               class="contact_img"
             >
@@ -100,44 +99,48 @@
       </div>
       <div class="contact-form">
         <form>
-          <div>
             <label for="name" class="input-text">Name:</label>
             <input 
             type="text" 
             placeholder="Enter Name" 
             class="contact-input"
             id="name">
-          </div>
-          <div>
+          
             <label for="email" class="input-text">Email:</label>
             <input 
             type="email" 
             placeholder="Enter Email" 
             class="contact-input"
             id="email">
-          </div>
+        
           <div>
             <fieldset>
               <legend class="input-text">Purpose of the Message:</legend>
-              <label>
+              <label for="general-inquiry">
                 <input
                   type="radio"
                   name="purpose"
                   value="General Inquiry"
                   required
+                  id="general-inquiry"
                 >
                 General Inquiry
               </label>
-              <label>
+              <label for="reservation-question">
                 <input
                   type="radio"
                   name="purpose"
                   value="Reservation Question"
+                   id="reservation-question"
                 >
                 Reservation Question
               </label>
-              <label>
-                <input type="radio" name="purpose" value="Website Suggestion">
+              <label for="website-suggestion">
+                <input
+                type="radio" 
+                id="website-suggestion"
+                name="purpose" 
+                value="Website Suggestion">
                 Website Suggestion
               </label>
             </fieldset>
@@ -148,8 +151,8 @@
             <textarea id="message" name="message" rows="5" cols="10" required></textarea>
           </div>
           <div>
-             <label class="input-text">
-      <input type="checkbox" name="newsletter">
+             <label for="news-letter" class="input-text">
+      <input type="checkbox" name="newsletter" id="news-letter">
       Please subscribe me to the monthly newsletter
     </label>
           </div>
