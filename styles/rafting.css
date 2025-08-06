@@ -1,12 +1,16 @@
+
 :root{
-   --primary-color: #505033;
-   --secondary-color: #264969;
-   --accent1-color: #cfcfb4;
-   --accent2-color: #b4cde4;
-    --heading-font: Georgia, serif;
+   --primary-color: #2c3e2d;        
+   --secondary-color: #1a3a5c;     
+   --accent1-color: #f4f4e8;       
+   --accent2-color: #87ceeb;         
+   --text-dark: #2c2c2c;           
+   --text-light: #ffffff;          
+   --background-light: #fafafa;   
+   --hero-overlay: rgba(44, 62, 45, 0.8);
+   --heading-font: Georgia, serif;
    --text-font: 'Roboto', sans-serif;
 }
-
 
 *{
     margin: 0;
@@ -14,9 +18,10 @@
     box-sizing: border-box;
 }
 
+
 header{
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -24,8 +29,10 @@ header{
 
 body{
     font-family: var(--text-font);
-    color: var(--accent1-color);
+    color: var(--text-dark); 
+    background-color: var(--background-light);
 }
+
 
 header, main, footer{
     width: 840px;
@@ -38,21 +45,22 @@ header img{
 
 h1, h2{
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--primary-color); 
 }
 
 .history_section{
     display: flex;
     align-items: center;
-    color: black;
+    color: var(--text-dark); /* Dark text */
 }
 
 section div{
     display: flex;
     align-items: center;
     gap: 10px;
-    color: black;
+    color: var(--text-dark); 
 }
+
 
 img{
     width: 150px;
@@ -74,13 +82,20 @@ nav{
 }
 
 nav a{
-    border: 1px solid black;
-    padding: 4px;
-    background-color: #fff;
-    color: black;
-    border-radius: 10%;
+    border: 2px solid var(--primary-color);
+    padding: 8px 12px;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    border-radius: 8px;
     text-decoration: none;
+    font-weight: 500;
 }
+
+nav a:hover{
+    background-color: var(--primary-color);
+    color: var(--text-light);
+}
+
 
 .socialmedia a {
     text-decoration: none;
@@ -106,10 +121,11 @@ nav a{
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+    background-color: var(--hero-overlay); 
+    color: var(--text-light); 
+    opacity: 1; 
 }
+
 
 .hero article img{
   width: 125px;
@@ -120,17 +136,28 @@ nav a{
 
 article{
     position: absolute;
-    background-color: rgb(233,196,106);
-    color: black;
+    background-color: rgba(255, 255, 255, 0.95); 
+    color: var(--text-dark);
     bottom: 10px;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
 }
 
+
 footer {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  padding: 1rem;
-  color: black;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    border-radius: 10px;
+}
+
+.footer_contacts{
+margin: 10px 0px 0px 225px;
+width: 870px;
+border-radius: 10px;
 }
 
 .contact_texts{
@@ -177,6 +204,7 @@ fieldset{
   flex: 1;                
 }
 
+
 .email-contact a {
   color: var(--secondary-color);
   text-decoration: none;
@@ -202,12 +230,15 @@ iframe{
     margin: 20px 4px 20px 2px;
 }
 
+
 .contact-form{
-    background-color: gainsboro;
-    color: black;
-    padding: 10px;
+    background-color: var(--accent1-color);
+    color: var(--text-dark);
+    padding: 20px;
     width: 860px;
     margin-left: 20px;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
 }
 
 .contact-input{
@@ -218,13 +249,21 @@ iframe{
 }
 
 .submit-btn{
-    background-color: green;
-    color: white;
+    background-color: var(--secondary-color);
+    color: var(--text-light);
     font-weight: bold;
-    padding: 5px;
-    border-radius: 10px;
-    margin: 10px 20px
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 20px;
+    cursor: pointer;
 }
+
+.submit-btn:hover{
+    background-color: var(--primary-color);
+}
+
+
 
 .input-text{
     font-weight: bold;
