@@ -1,0 +1,181 @@
+<svg viewBox="0 0 800 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="1200" fill="#f8f8f8" stroke="#ccc" stroke-width="2"/>
+  
+  <!-- Header Section -->
+  <rect x="20" y="20" width="760" height="80" fill="white" stroke="#333" stroke-width="2"/>
+  <circle cx="70" cy="60" r="25" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="75" y="65" font-family="Arial" font-size="8" text-anchor="middle">LOGO</text>
+  
+  <!-- Navigation -->
+  <rect x="400" y="35" width="60" height="25" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="430" y="50" font-family="Arial" font-size="10" text-anchor="middle">Home</text>
+  <rect x="470" y="35" width="80" height="25" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="510" y="50" font-family="Arial" font-size="10" text-anchor="middle">About Us</text>
+  <rect x="560" y="35" width="60" height="25" fill="#333" stroke="#333" stroke-width="1"/>
+  <text x="590" y="50" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Trips</text>
+  <rect x="630" y="35" width="80" height="25" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="670" y="50" font-family="Arial" font-size="10" text-anchor="middle">Contact Us</text>
+  
+  <!-- Hero Section -->
+  <rect x="20" y="120" width="760" height="200" fill="#e6f3ff" stroke="#333" stroke-width="2"/>
+  <text x="400" y="180" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle">Our Adventure Trips</text>
+  <text x="400" y="210" font-family="Arial" font-size="16" text-anchor="middle">Choose your perfect whitewater experience</text>
+  <text x="400" y="230" font-family="Arial" font-size="16" text-anchor="middle">From gentle family floats to heart-pounding rapids</text>
+  
+  <!-- Trip Categories Grid (2x4 layout) -->
+  <text x="40" y="360" font-family="Arial" font-size="20" font-weight="bold">Adventure Options</text>
+  
+  <!-- Row 1 -->
+  <!-- Idaho Rafting Trip -->
+  <rect x="40" y="380" width="170" height="140" fill="white" stroke="#333" stroke-width="2"/>
+  <rect x="50" y="390" width="150" height="80" fill="#ddd" stroke="#333" stroke-width="1"/>
+  <text x="125" y="435" font-family="Arial" font-size="10" text-anchor="middle">[Trip Image]</text>
+  <text x="125" y="485" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Idaho Rafting Trip</text>
+  <text x="125" y="505" font-family="Arial" font-size="10" text-anchor="middle">White Water Rafting Trip in Idaho</text>
+  
+  <!-- Rafting in Oregon -->
+  <rect x="230" y="380" width="170" height="140" fill="white" stroke="#333" stroke-width="2"/>
+  <rect x="240" y="390" width="150" height="80" fill="#ddd" stroke="#333" stroke-width="1"/>
+  <text x="315" y="435" font-family="Arial" font-size="10" text-anchor="middle">[Trip Image]</text>
+  <text x="315" y="485" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Rafting in Oregon</text>
+  <text x="315" y="505" font-family="Arial" font-size="10" text-anchor="middle">Explore Oregon the way it Should be</text>
+  
+  <!-- Utah Rafting Contracts -->
+  <rect x="420" y="380" width="170" height="140" fill="white" stroke="#333" stroke-width="2"/>
+  <rect x="430" y="390" width="150" height="80" fill="#ddd" stroke="#333" stroke-width="1"/>
+  <text x="505" y="435" font-family="Arial" font-size="10" text-anchor="middle">[Trip Image]</text>
+  <text x="505" y="485" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Utah Rafting Contracts</text>
+  <text x="505" y="505" font-family="Arial" font-size="10" text-anchor="middle">Perfect Utah Rafting Trip</text>
+  
+  <!-- Zipline Tours -->
+  <rect x="610" y="380" width="170" height="140" fill="white" stroke="#333" stroke-width="2"/>
+  <rect x="620" y="390" width="150" height="80" fill="#ddd" stroke="#333" stroke-width="1"/>
+  <text x="695" y="435" font-family="Arial" font-size="10" text-anchor="middle">[Trip Image]</text>
+  <text x="695" y="485" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">ZIPLINE TOURS</text>
+  <text x="695" y="505" font-family="Arial" font-size="10" text-anchor="middle">Quality Ocoee, Nantahala</text>
+  
+  <!-- Row 2 -->
+  <!-- Stand Paddleboard -->
+  <rect x="40" y="540" width="170" height="140" fill="white" stroke="#333" stroke-width="2"/>
+  <rect x="50" y="550" width="150" height="80" fill="#ddd" stroke="#333" stroke-width="1"/>
+  <text x="125" y="595" font-family="Arial" font-size="10" text-anchor="middle">[Trip Image]</text>
+  <text x="125" y="645" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">STAND</text>
+  <text x="125" y="660" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">PADDLEBOARD</text>
+  
+  <!-- Rock Climbing -->
+  <rect x="230" y="540" width="170" height="140" fill="white" stroke="#333" stroke-width="2"/>
+  <rect x="240" y="550" width="150" height="80" fill="#ddd" stroke="#333" stroke-width="1"/>
+  <text x="315" y="595" font-family="Arial" font-size="10" text-anchor="middle">[Trip Image]</text>
+  <text x="315" y="645" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">ROCK</text>
+  <text x="315" y="660" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">CLIMBING</text>
+  
+  <!-- Zipline Tours (duplicate) -->
+  <rect x="420" y="540" width="170" height="140" fill="white" stroke="#333" stroke-width="2"/>
+  <rect x="430" y="550" width="150" height="80" fill="#ddd" stroke="#333" stroke-width="1"/>
+  <text x="505" y="595" font-family="Arial" font-size="10" text-anchor="middle">[Trip Image]</text>
+  <text x="505" y="645" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">ZIPLINE</text>
+  <text x="505" y="660" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">TOURS</text>
+  
+  <!-- Whitewater Rafting -->
+  <rect x="610" y="540" width="170" height="140" fill="white" stroke="#333" stroke-width="2"/>
+  <rect x="620" y="550" width="150" height="80" fill="#ddd" stroke="#333" stroke-width="1"/>
+  <text x="695" y="595" font-family="Arial" font-size="10" text-anchor="middle">[Trip Image]</text>
+  <text x="695" y="645" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">WHITEWATER</text>
+  <text x="695" y="660" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">RAFTING</text>
+  
+  <!-- Trip Details Table -->
+  <text x="40" y="720" font-family="Arial" font-size="20" font-weight="bold">Trip Details &amp; Pricing</text>
+  
+  <!-- Table Header -->
+  <rect x="40" y="740" width="720" height="30" fill="#333" stroke="#333" stroke-width="1"/>
+  <text x="60" y="758" font-family="Arial" font-size="10" fill="white" font-weight="bold">Trip Name</text>
+  <text x="160" y="758" font-family="Arial" font-size="10" fill="white" font-weight="bold">Duration</text>
+  <text x="240" y="758" font-family="Arial" font-size="10" fill="white" font-weight="bold">Rapids Class</text>
+  <text x="340" y="758" font-family="Arial" font-size="10" fill="white" font-weight="bold">Minimum Age</text>
+  <text x="440" y="758" font-family="Arial" font-size="10" fill="white" font-weight="bold">Group Size</text>
+  <text x="530" y="758" font-family="Arial" font-size="10" fill="white" font-weight="bold">Price</text>
+  <text x="600" y="758" font-family="Arial" font-size="10" fill="white" font-weight="bold">Season</text>
+  <text x="700" y="758" font-family="Arial" font-size="10" fill="white" font-weight="bold">Book</text>
+  
+  <!-- Table Rows -->
+  <!-- Row 1 -->
+  <rect x="40" y="770" width="720" height="30" fill="white" stroke="#333" stroke-width="1"/>
+  <text x="50" y="788" font-family="Arial" font-size="9">Family Adventure Float</text>
+  <text x="160" y="788" font-family="Arial" font-size="9">4 hours</text>
+  <text x="240" y="788" font-family="Arial" font-size="9">Class I-II</text>
+  <text x="340" y="788" font-family="Arial" font-size="9">6 Years</text>
+  <text x="440" y="788" font-family="Arial" font-size="9">4 - 12</text>
+  <text x="530" y="788" font-family="Arial" font-size="9">$89</text>
+  <text x="600" y="788" font-family="Arial" font-size="9">Apr-Oct</text>
+  <rect x="695" y="775" width="55" height="20" fill="#4CAF50" stroke="#333" stroke-width="1"/>
+  <text x="722" y="787" font-family="Arial" font-size="8" fill="white" text-anchor="middle">Book Now</text>
+  
+  <!-- Row 2 -->
+  <rect x="40" y="800" width="720" height="30" fill="#f9f9f9" stroke="#333" stroke-width="1"/>
+  <text x="50" y="818" font-family="Arial" font-size="9">Family Adventure Float</text>
+  <text x="160" y="818" font-family="Arial" font-size="9">4 hours</text>
+  <text x="240" y="818" font-family="Arial" font-size="9">Class I-II</text>
+  <text x="340" y="818" font-family="Arial" font-size="9">6 Years</text>
+  <text x="440" y="818" font-family="Arial" font-size="9">4 - 12</text>
+  <text x="530" y="818" font-family="Arial" font-size="9">$89</text>
+  <text x="600" y="818" font-family="Arial" font-size="9">Apr-Oct</text>
+  <rect x="695" y="805" width="55" height="20" fill="#4CAF50" stroke="#333" stroke-width="1"/>
+  <text x="722" y="817" font-family="Arial" font-size="8" fill="white" text-anchor="middle">Book Now</text>
+  
+  <!-- Row 3 -->
+  <rect x="40" y="830" width="720" height="30" fill="white" stroke="#333" stroke-width="1"/>
+  <text x="50" y="848" font-family="Arial" font-size="9">Family Adventure Float</text>
+  <text x="160" y="848" font-family="Arial" font-size="9">4 hours</text>
+  <text x="240" y="848" font-family="Arial" font-size="9">Class I-II</text>
+  <text x="340" y="848" font-family="Arial" font-size="9">6 Years</text>
+  <text x="440" y="848" font-family="Arial" font-size="9">4 - 12</text>
+  <text x="530" y="848" font-family="Arial" font-size="9">$89</text>
+  <text x="600" y="848" font-family="Arial" font-size="9">Apr-Oct</text>
+  <rect x="695" y="835" width="55" height="20" fill="#4CAF50" stroke="#333" stroke-width="1"/>
+  <text x="722" y="847" font-family="Arial" font-size="8" fill="white" text-anchor="middle">Book Now</text>
+  
+  <!-- Row 4 -->
+  <rect x="40" y="860" width="720" height="30" fill="#f9f9f9" stroke="#333" stroke-width="1"/>
+  <text x="50" y="878" font-family="Arial" font-size="9">Family Adventure Float</text>
+  <text x="160" y="878" font-family="Arial" font-size="9">4 hours</text>
+  <text x="240" y="878" font-family="Arial" font-size="9">Class I-II</text>
+  <text x="340" y="878" font-family="Arial" font-size="9">6 Years</text>
+  <text x="440" y="878" font-family="Arial" font-size="9">4 - 12</text>
+  <text x="530" y="878" font-family="Arial" font-size="9">$89</text>
+  <text x="600" y="878" font-family="Arial" font-size="9">Apr-Oct</text>
+  <rect x="695" y="865" width="55" height="20" fill="#4CAF50" stroke="#333" stroke-width="1"/>
+  <text x="722" y="877" font-family="Arial" font-size="8" fill="white" text-anchor="middle">Book Now</text>
+  
+  <!-- Row 5 -->
+  <rect x="40" y="890" width="720" height="30" fill="white" stroke="#333" stroke-width="1"/>
+  <text x="50" y="908" font-family="Arial" font-size="9">Family Adventure Float</text>
+  <text x="160" y="908" font-family="Arial" font-size="9">4 hours</text>
+  <text x="240" y="908" font-family="Arial" font-size="9">Class I-II</text>
+  <text x="340" y="908" font-family="Arial" font-size="9">6 Years</text>
+  <text x="440" y="908" font-family="Arial" font-size="9">4 - 12</text>
+  <text x="530" y="908" font-family="Arial" font-size="9">$89</text>
+  <text x="600" y="908" font-family="Arial" font-size="9">Apr-Oct</text>
+  <rect x="695" y="895" width="55" height="20" fill="#4CAF50" stroke="#333" stroke-width="1"/>
+  <text x="722" y="907" font-family="Arial" font-size="8" fill="white" text-anchor="middle">Book Now</text>
+  
+  <!-- Call to Action Section -->
+  <rect x="40" y="940" width="720" height="100" fill="#e8f5e8" stroke="#333" stroke-width="2"/>
+  <text x="400" y="970" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Ready for Your Adventure?</text>
+  <text x="400" y="995" font-family="Arial" font-size="14" text-anchor="middle">Contact us today to book your perfect whitewater experience</text>
+  <rect x="350" y="1005" width="100" height="25" fill="#4CAF50" stroke="#333" stroke-width="1"/>
+  <text x="400" y="1020" font-family="Arial" font-size="12" fill="white" font-weight="bold" text-anchor="middle">Contact Us</text>
+  
+  <!-- Footer -->
+  <rect x="20" y="1060" width="760" height="60" fill="#333" stroke="#333" stroke-width="2"/>
+  <text x="400" y="1085" font-family="Arial" font-size="12" fill="white" text-anchor="middle">© 2025 Whitewater Warriors</text>
+  <text x="400" y="1105" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Contact Information | Social Media Links</text>
+  
+  <!-- Wireframe Labels -->
+  <text x="400" y="30" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">HEADER/NAVIGATION</text>
+  <text x="400" y="140" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">HERO SECTION</text>
+  <text x="400" y="350" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">TRIP CATEGORIES GRID</text>
+  <text x="400" y="730" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">TRIP DETAILS TABLE</text>
+  <text x="400" y="950" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">CALL TO ACTION</text>
+  <text x="400" y="1070" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">FOOTER</text>
+</svg>
